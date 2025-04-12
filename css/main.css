@@ -3141,7 +3141,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 500;
   margin-bottom: 10px;
 }
-.contact_message input, .contact_message input:focus {
+.contact_message input, .contact_message input:focus,.contact_message input:focus-visible {
   border: 1px solid #ebebeb;
   height: 45px;
   background: #ffffff;
@@ -3182,6 +3182,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .clr-red{
   color: #ff0000 !important;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact_message.content {
     margin-bottom: 62px;
