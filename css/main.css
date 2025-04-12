@@ -3096,3 +3096,103 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-top: 10px;
   }
 }
+.contact_message h3 {
+  font-size: 21px;
+  text-transform: capitalize;
+  color: #242424;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+@media only screen and (max-width: 767px) {
+  .contact_message h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+.contact_message p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+.contact_message p span{
+  color: #1cbcc8;
+}
+.contact_message ul li {
+  padding: 13px 0;
+  border-top: 1px solid #ebebeb;
+}
+.contact_message ul li:last-child {
+  padding-bottom: 0;
+}
+.contact_message ul li i {
+  margin-right: 10px;
+}
+.contact_message ul li a {
+  color: #1cbcc8;
+}
+.contact_message ul li a:hover {
+  color: #212121;
+}
+.contact_message label {
+  line-height: 18px;
+  color: #212121;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contact_message input, .contact_message input:focus {
+  border: 1px solid #ebebeb;
+  height: 45px;
+  background: #ffffff;
+  width: 100%;
+  padding: 0 20px;
+  color: #5a5a5a;
+}
+.contact_message textarea {
+  height: 170px;
+  border: 1px solid #ebebeb;
+  background: #ffffff;
+  resize: none;
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  color: #5a5a5a;
+}
+.contact_message button {
+  font-weight: 400;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 30px;
+  text-transform: capitalize;
+  border: none;
+  background: #1cbcc8;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 4px;
+  border: 1px solid #1cbcc8;
+}
+.contact_message button:hover {
+  background: transparent;
+  color: #1cbcc8;
+  border: 1px solid #1cbcc8;
+}
+.clr-red{
+  color: #ff0000 !important;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .contact_message.content {
+    margin-bottom: 62px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contact_message.content {
+    margin-bottom: 52px;
+  }
+}
+.contact_message.form p.form-messege {
+  margin-bottom: 0;
+
+}
