@@ -2634,6 +2634,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: flex;
 }
 
+.single-course .play-button {
+  background-color: #1cbcc8;
+  color: #fff;  
+  padding: 14px 16px;
+  margin-left: 150px;
+  margin-top: -150px;
+  position: absolute;
+  display: flex;
+  border-radius: 50%;
+}
+.single-course .custom-img-height{
+  height: 290px;
+}
+
 .single-course:hover img {
   transform: scale(1.2);
 }
@@ -3092,7 +3106,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .section-gap {
     padding: 50px 0;
   }
-  .header-top{
+  .header-top {
     padding-top: 10px;
   }
 }
@@ -3116,7 +3130,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #212121;
   margin-bottom: 20px;
 }
-.contact_message p span{
+.contact_message p span {
   color: #1cbcc8;
 }
 .contact_message ul li {
@@ -3141,7 +3155,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 500;
   margin-bottom: 10px;
 }
-.contact_message input, .contact_message input:focus,.contact_message input:focus-visible {
+.contact_message input,
+.contact_message input:focus,
+.contact_message input:focus-visible {
   border: 1px solid #ebebeb;
   height: 45px;
   background: #ffffff;
@@ -3179,7 +3195,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #1cbcc8;
   border: 1px solid #1cbcc8;
 }
-.clr-red{
+.clr-red {
   color: #ff0000 !important;
 }
 
@@ -3195,5 +3211,4 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .contact_message.form p.form-messege {
   margin-bottom: 0;
-
 }
