@@ -3233,3 +3233,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact_message.form p.form-messege {
   margin-bottom: 0;
 }
+/* workout section */
+.workout .nav-link,
+.workout .nav-link:focus
+ {
+  border-radius: 0;
+  border: 0 !important;
+  margin: 5px 0px;
+  text-align: left;
+  padding: 12px;
+  cursor: pointer;
+}
+.workout .nav-link:hover {
+  color: #fff;
+  background-color: #1cbcc8;
+}
+.workout .nav-link.active,
+.workout .show > .nav-link {
+  color: #fff;
+  background-color: #1cbcc8;
+  border: 0 !important;
+}
