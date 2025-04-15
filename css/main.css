@@ -807,11 +807,12 @@ th {
 b,
 sup,
 sub,
-u,
-del {
+u {
   color: #1cbcc8;
 }
-
+del {
+  color: #ccc;
+}
 h1 {
   font-size: 36px;
 }
@@ -2636,7 +2637,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-course .play-button {
   background-color: #1cbcc8;
-  color: #fff;  
+  color: #fff;
   padding: 14px 16px;
   margin-left: 150px;
   margin-top: -150px;
@@ -2644,7 +2645,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: flex;
   border-radius: 50%;
 }
-.single-course .custom-img-height{
+.single-course .custom-img-height {
   height: 290px;
 }
 
@@ -2752,23 +2753,43 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-price {
   background-color: #f9f9ff;
+  /* height: 100%; */
 }
 
 .single-price .top-sec,
 .single-price .bottom-sec {
   border-bottom: 1px solid #eeeeee;
-  padding: 40px 40px 22px 40px;
+  padding: 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  height: 100px;
 }
 
 .single-price .top-sec br,
 .single-price .bottom-sec br {
   display: none;
 }
-
+.single-price .top-right {
+  text-align: -webkit-right;
+  text-align: right;
+}
+.close-button {
+  background-color: #1cbcc8;
+  color: #fff;
+  padding: 10px 40px;
+  display: flex;
+  border: 1px solid #1cbcc8;
+  cursor: pointer;
+}
+.close-button:hover {
+  color: #1cbcc8;
+  background-color: #fff;
+  padding: 10px 40px;
+  display: flex;
+  border: 1px solid #1cbcc8;
+}
 @media (max-width: 1024px) {
   .single-price .top-sec br,
   .single-price .bottom-sec br {
@@ -2781,7 +2802,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  padding: 40px 40px 22px 40px;
+  padding: 20px;
 }
 
 .single-price .end-sec ul li {
