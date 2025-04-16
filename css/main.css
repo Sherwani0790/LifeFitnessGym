@@ -3235,8 +3235,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 /* workout section */
 .workout .nav-link,
-.workout .nav-link:focus
- {
+.workout .nav-link:focus {
   border-radius: 0;
   border: 0 !important;
   margin: 5px 0px;
@@ -3254,3 +3253,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #1cbcc8;
   border: 0 !important;
 }
+/* Choose your trainer */
+.choose-trainer img {
+  width: 50px;
+}
+/* Choose your trainer End */
